@@ -14,3 +14,11 @@ The 1830 Edition is the one that is closest to what Joseph Smith actually wrote 
 ## Source for the Material
 
 The text for the 1830 Book of Mormon was obtained from Wikisources.   
+
+# Gencsv.py
+
+This is a Python script designed to go through the list files, count the occurrences of each word, divide the occurences by the total, and then output the word and its frequency to a CSV file format that can easily be read by the Pandas data library.
+
+## Datacleaning Process
+
+The data cleaning process used three seprate shell scripts and could have been done more efficiently. The first shell script removed punctuation from the tests, the second script, word_list.py, separated all the text and into words and printed the word out line by line. The third script, listgen.sh sorted the words in the script into final output. The final result, sorted_file was then moved into the wordlist file for further process. Finally, cleanup.sh removed the excess files generated.
