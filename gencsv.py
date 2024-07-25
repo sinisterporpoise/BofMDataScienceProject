@@ -3,7 +3,7 @@
 #---------------------
 # Remaining Books
 #--------------------
-books = ["1stNephi", "3rdNephi", "Alma", "Ether", "Enos", "Helaman", "Jacob", "Jarom", "Mormon","Moroni", "Mosiah", "Omni", "Usher"]
+books = ["1stNephi", "3rdNephi", "Ether", "Enos", "Helaman", "Jarom", "Mormon", "Moroni", "Mosiah", "Omni"]
 # Don't you hate it when you realize you could have made this easier on yourself?
 
 for book in books:
